@@ -1,0 +1,174 @@
+Alex@LAPTOP-AO7HG7A3 MINGW64 ~
+$ git config --global user.name "Daniel Michel"
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 ~
+$ hit config --global user.email daniel.michel7479@alumnos.udg.mx
+bash: hit: command not found
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 ~
+$ git config --global user.email daniel.michel7479@alumnos.udg.mx
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 ~
+$ git remote add origin https://github.com/Emulator-Dnl/ejemplo.git
+fatal: not a git repository (or any of the parent directories): .git
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/Alex/.git/
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 ~ (master)
+$ git remote add origin https://github.com/Emulator-Dnl/ejemplo.git
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 ~ (master)
+$ git remote -v
+origin  https://github.com/Emulator-Dnl/ejemplo.git (fetch)
+origin  https://github.com/Emulator-Dnl/ejemplo.git (push)
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 ~ (master)
+$ cd C:\wamp64\www\PI\ejemplo
+bash: cd: C:wamp64wwwPIejemplo: No such file or directory
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 ~ (master)
+$  cd C:\\wamp64\\www\\PI\\ejemplo
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo
+$ git init
+Initialized empty Git repository in C:/wamp64/www/PI/ejemplo/.git/
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ git remote add origin https://github.com/Emulator-Dnl/ejemplo.git
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ git add .
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ git commint -m "head"
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ git commit -m "head"
+[master (root-commit) fbb4707] head
+ 1 file changed, 20 insertions(+)
+ create mode 100644 index.html
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ $ git push -u origin master
+bash: $: command not found
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ git push -u origin master
+}Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 695 bytes | 695.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Emulator-Dnl/ejemplo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ git add .
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ $ git commint -m "head"
+bash: $: command not found
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ ^C
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ git commint -m "head"
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ git commit -m "title yo"
+[master d100729] title yo
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 287 bytes | 287.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Emulator-Dnl/ejemplo.git
+   fbb4707..d100729  master -> master
+
+Alex@LAPTOP-AO7HG7A3 MINGW64 /c/wamp64/www/PI/ejemplo (master)
+$
